@@ -245,10 +245,10 @@ class FloorPlannerGUI(tk.Frame):
         if self.log_toggle.get():
             self.logfile.create_logfile()
         
-root = tk.Tk()
-root.minsize(490, 512)
-root.config(bg="#2a3950")
-root.winfo_toplevel().title("LayoutTopia")
+#root = tk.Tk()
+#root.minsize(490, 512)
+#root.config(bg="#2a3950")
+#root.winfo_toplevel().title("LayoutTopia")
 
-main = FloorPlannerGUI(root)
-main.mainloop()
+#main = FloorPlannerGUI(root)
+#main.mainloop()
